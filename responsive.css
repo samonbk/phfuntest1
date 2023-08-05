@@ -1,0 +1,70 @@
+@media(max-width: 1024px){
+    .contain{
+        width:90%;
+    }
+}
+
+@media (max-width: 480px){
+    .logo{
+        width: 80%;
+        padding-top: 50px;
+    }
+    @keyframes upAndDown {
+        0% {transform: translateY(20);}
+        50% {transform: translateY(-10px);}
+        100% {transform:translateY(20);}
+      }
+    .icons{
+        
+    }
+    .icon{
+        width: 75px;
+        margin: 0px;
+    }
+    .contain{
+        width: 98%;
+    }
+    .partner{
+        width: 95%;
+    }
+    .link a{
+        font-size: 14px;
+    }
+    .link{
+        padding: 0px 8px;
+    }
+    .footertext{
+        width: 95%;
+        font-size: 14px;
+    }
+    .playnow{
+        font-size: 11px;
+    }
+    .hotgamebar{
+        padding: 13px 13px;
+    }
+    .mt-4{
+        margin: 0px 0px;      
+    }
+    .link:not(:last-child) {
+        border-right:1px solid #cacaca;
+    }
+}
+@media (max-width: 374px){
+    .link a{
+        font-size: 11px;
+    }
+    .link{
+        padding: 0px 3px;
+    }
+    
+    .footertext{
+        font-size: 12px;
+    }
+    .contain{
+        width: 100%;
+    }
+    .icon{
+        width: 50px;
+    }
+}

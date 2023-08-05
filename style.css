@@ -1,0 +1,169 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Rajdhani', sans-serif;
+    /* letter-spacing: 0.5px; */
+}
+.body{
+    width: 100%;
+    background: linear-gradient(90deg, #121941,#172781,#121941) ;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    
+    padding-bottom: 50px;
+}
+.mother{
+    width: 100%;
+    background: url("image/topbackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.darker{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.topSide{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 60%;
+    margin: auto;
+    padding: 40px;
+    padding-top: 100px;
+    animation: upAndDown 3s infinite;
+}
+@keyframes upAndDown {
+    0% {transform: translateY(0);}
+    50% {transform: translateY(-50px);}
+    100% {transform:translateY(0);}
+  }
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.mAuto{
+    margin:0 auto;
+}
+.contain{
+    width: 70%;
+    margin: auto;
+}
+.poster{
+    width: 100%;
+    margin: auto;
+}
+.poster img{
+    width: 100%;
+}
+.hotgamebar{
+    width: 100%;
+    background: linear-gradient(#21317e,#060d38);
+    color: #dddcd6;
+    padding: 15px 22px;
+    font-weight: bold;
+    font-size: larger;
+    
+}
+.icons{
+    width: 100%;
+    flex-wrap: wrap;
+}
+.icon{
+    width:110px;
+    position: relative;
+}
+.playnow{
+    width: 70%;
+    text-align: center;
+    background-color: orange;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    display: none;
+    color: #fff;
+}
+.icon:hover{
+    transform: scale(1.1);
+    transition: 0.8s;
+}.icon:hover .playnow{
+    display: block;
+}
+.icon img{
+    width: 100%;
+}
+.partner{
+    width: 80%;
+    margin: auto;
+}
+.partner img{
+    width: 100%;
+}
+
+.newregister{
+    background-color: rgb(31, 31, 107);
+    border-radius: 7px;
+}
+.newregister .poster img{
+    border-radius: 7px ;
+}
+.text{
+    color: #fff;
+    padding: 7px;
+}
+.text p{
+    font-size: 14px;
+}
+.spancolor{
+    color: yellow;
+}
+.ul-notice{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.ul-notice li{
+    list-style: none;
+    color: #fff;
+    margin: 0px 8px;
+    display: block;
+}
+.marquee{
+    height: 39px;
+    width: 100%;
+    padding: 4px 0px;
+    border-radius: 25px;
+    border: 3px solid #172781;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+}
+.link{
+    padding: 0px 15px;
+}
+.link a{
+    text-decoration: none;
+    color: #b1b1b1;
+    font-size:19px;
+}
+.link a:hover{
+    color: #ffa600;
+}
+.link:not(:last-child) {
+    border-right:2px solid #cacaca;
+}
+.footertext{
+    width: 60%;
+    margin: auto;
+    color: #757575;
+}
